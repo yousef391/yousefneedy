@@ -1,0 +1,60 @@
+name: sign_in
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6
+  image_picker: ^0.8.7
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.0 
+  change_app_package_name: ^1.1.0
+  smooth_page_indicator: ^1.0.0
+  firebase_core: ^2.11.0
+  cloud_firestore: ^4.6.0
+  flutter_map: ^0.13.1
+  firebase_auth: ^4.6.0
+  url_launcher: ^6.1.11
+  google_maps_flutter: ^2.2.6
+  google_maps_flutter_web: ^0.4.0+8
+  location: ^4.4.0
+  firebase_storage: ^11.2.1
+  geolocator: ^9.0.2
+  cached_network_image: ^3.2.3
+ 
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  path_provider: ^2.0.2  
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - images/
+   - images/categories/
+   - images/categories/Tools.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+       - asset: fonts/Pacifico-Regular.ttf
+    - family: Urbanist
+      fonts:
+        - asset: fonts/urbanist-Regular.ttf
+    - family: Urbanist Pro
+      fonts:
+        - asset: fonts/urbanist-Bold.ttf
